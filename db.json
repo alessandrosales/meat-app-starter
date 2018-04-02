@@ -370,5 +370,62 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "address": "Rua Pará 293",
+      "number": "94",
+      "optionalAddress": "Complemento teste",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "espreso"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "address": "Rua Pará",
+      "number": "293",
+      "optionalAddress": "Complemento",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 2,
+          "menuId": "espreso"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "address": "Rua Pará",
+      "number": "290",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "capp"
+        },
+        {
+          "quantity": 1,
+          "menuId": "espreso"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "address": "Rua pará",
+      "number": "290",
+      "optionalAddress": "",
+      "paymentOption": "REF",
+      "orderItems": [
+        {
+          "quantity": 2,
+          "menuId": "cup-cake"
+        }
+      ],
+      "id": 4
+    }
+  ]
 }
